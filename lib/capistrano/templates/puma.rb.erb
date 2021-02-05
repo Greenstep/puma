@@ -1,6 +1,5 @@
 directory   '<%= current_path %>'
 environment '<%= fetch(:rack_env, fetch(:rails_env, "production")) %>'
-daemonize false
 quiet
 pidfile '<%= fetch(:runit_puma_pid)%>'
 state_path '<%= fetch(:runit_puma_state)%>'
